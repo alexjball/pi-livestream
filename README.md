@@ -8,7 +8,7 @@ The system consists of a Raspberry Pi Zero W running Raspbian configured with Cu
   - HTTPS Proxy
   - Static React client with login, live view, timelapse view, camera settings, and site/admin settings.
   - Node API server. Proxies requests to MJPG-Streamer
-  - Simple database (Sqlite or MongoDB) for images and settings. Proxies requests to MJPG-Streamer
+  - Simple database (Sqlite or MongoDB) for images and settings.
   - Octopi running just MJPG-Streamer
 
 # Continuous Integration
