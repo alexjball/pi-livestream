@@ -1,3 +1,6 @@
 [submodule "CustomPiOS"]
 	path = CustomPiOS
 	url = https://github.com/alexjball/CustomPiOS.git
+[submodule "OctoPi"]
+	path = OctoPi
+	url = https://github.com/alexjball/OctoPi.git
