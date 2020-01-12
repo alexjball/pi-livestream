@@ -1,3 +1,7 @@
 export DIST_NAME=livestream
 export DIST_VERSION=0.1.0
-export MODULES="base(network,livestream)"
+export MODULES="base(network, livestream, disable-services(octopi), password-for-sudo)"
+
+export OCTOPI_INCLUDE_OCTOPRINT=no
+export OCTOPI_INCLUDE_CURAENGINE=no
+export OCTOPI_INCLUDE_WIRINGPI=no
